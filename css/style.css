@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,700;1,200;1,400;1,600;1,700&display=swap');
+
+
+
+
+*{
+	margin:0px;
+box-sizing: border-box;
+
+}
+
+
+body{
+
+font-family: 'Josefin Sans', sans-serif;
+
+
+	
+}
+header{
+	background-color: black;
+	color:white;
+
+}
+.container{
+	width: 1000px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+.logo{
+	flex-basis: 12%;
+	padding: 6px;
+	max-width: 38%;
+	
+}
+.logo img{
+	max-width: 100%;
+	
+
+}
+nav{
+flex-basis: 82%;
+max-width: 82%;
+padding: 3px;
+
+}
+
+nav ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+}
+nav ul li{}
+nav ul li a{
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+	padding: 20px;
+}
+
+
+img{
+	max-width: 100%
+}
+nav ul li a:hover{
+	color:gold;
+}
+
+.about-us{
+	padding: 100px 0px;
+}
+.about-us h1{
+	font-size: 50px;
+	font-weight: 700;
+	color: #d3b415;
+}
+.about-us p{
+	font-size: 20px;
+}
+.products{
+	background-color:black;
+	padding: 0px 100px;
+}
+.col{flex-basis: 60%;
+	padding: 2px;
+	max-width: 60%;
+}
+.com img{
+	max-width: 100%;
+}
+.product{
+	padding:0px 120px;
+
+}
+product-image,product-details{
+	flex-basis: 80%;
+	padding: 20px;
+	max-width: 80%;
+
+}
